@@ -1,3 +1,5 @@
 venv/
 .ipynb_checkpoints/
 .env
+confluence_chroma_db/
+__pycache__

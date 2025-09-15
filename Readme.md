@@ -1,4 +1,4 @@
-# Confluence RAG Implementation
+# Confluence RAG Implementation With Local LLM
 
 This project implements a Retrieval-Augmented Generation (RAG) system for Confluence data, enabling efficient search and intelligent response generation over your Confluence knowledge base.
 
