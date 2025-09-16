@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="pbBKQ7Vy17FrrruDy1pk">
+    <mxGraphModel dx="1018" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LLBGlHXJQq228VpD56f--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LLBGlHXJQq228VpD56f--38" target="LLBGlHXJQq228VpD56f--27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--40" value="Query all page&lt;div&gt;&amp;nbsp;content from&amp;nbsp;&lt;/div&gt;&lt;div&gt;confluence&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LLBGlHXJQq228VpD56f--28">
+          <mxGeometry x="-0.1744" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LLBGlHXJQq228VpD56f--27" target="LLBGlHXJQq228VpD56f--29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--31" value="Store Embeddings and chunks" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LLBGlHXJQq228VpD56f--30">
+          <mxGeometry x="-0.1727" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--27" value="Split to chunks using testspliters and embeddings using models" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--29" value="Vector DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--32" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--33" value="Embed query using the same model used for storing chunks in to vector DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.017;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LLBGlHXJQq228VpD56f--29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="380" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--37" value="Find the embedded query context&amp;nbsp; from vector DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" vertex="1" parent="1">
+          <mxGeometry x="304.75" y="262.71" width="215.76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--38" value="" style="image;html=1;image=img/lib/atlassian/Confluence_Logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="83" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--39" value="Confluence" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="73" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--41" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
+          <mxGeometry x="561" y="391" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LLBGlHXJQq228VpD56f--33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="430" as="sourcePoint" />
+            <mxPoint x="150" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--44" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LLBGlHXJQq228VpD56f--43">
+          <mxGeometry x="-0.2222" y="-1" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LLBGlHXJQq228VpD56f--33" target="LLBGlHXJQq228VpD56f--41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="430" as="sourcePoint" />
+            <mxPoint x="420" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LLBGlHXJQq228VpD56f--46" value="Summarise the context&amp;nbsp;&lt;div&gt;and query from&amp;nbsp;&lt;/div&gt;&lt;div&gt;LLM&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LLBGlHXJQq228VpD56f--45">
+          <mxGeometry x="-0.0067" y="3" relative="1" as="geometry">
+            <mxPoint x="15" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
